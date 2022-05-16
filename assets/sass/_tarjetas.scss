@@ -1,0 +1,43 @@
+.containerTarjetas{
+    height: auto;
+    padding-bottom: 65px;
+    .fondoTarjetas{
+        h1{
+            padding-top: 80px;
+        }
+    }
+    .tarjetas{
+        background-color: white;
+        width: 200px;
+        height: 250px;
+        border-radius: 15px;
+        box-shadow: 0px 6px 23px -9px rgba(109,113,113,0.35);
+        
+        img{
+            width: 200px;
+            height: 200px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+    }
+    .agrupTarjetas{
+        height: auto;
+    }
+
+}
+.tarjetasMenu2{
+    padding-top: 100px;
+}
+.tarjetas2{
+   
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 23px -9px rgba(109,113,113,0.35);
+    img{
+        width: 200px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+}

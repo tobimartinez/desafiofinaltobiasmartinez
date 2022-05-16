@@ -1,0 +1,76 @@
+.navegador{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    img{
+        height: 30px;
+        width: auto;
+        padding-left: 30px;
+ 
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        li{
+            padding-right: 30px;
+            a{
+                text-decoration: none;
+                color:white
+            }
+        }
+    }
+}
+.historiaCont{
+    background-image: url(https://galacticadigital.com.br/wp-content/uploads/2022/05/pic_story.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    h2{
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+.ventaDemo{
+    height: 500px;
+    width: auto;
+    .demo1{
+        background-color: black;
+        h2{
+            color: #f5bb53;
+        }
+        p{
+            color: white;
+        }
+        .compra2{
+            background-color: white;
+            color: black;
+            font-weight: bolder;
+            border-radius: 5px;
+        }
+        .compra2:hover{
+            background-color: #f5bb53;
+        }
+    }
+    .demo2{
+        background-color: #f5bb53;
+        p{
+            color: white;
+        }
+        .botonCompra{
+            background-color: white;
+            color: black;
+            font-weight: bolder;
+            border-radius: 5px;
+        }
+        .botonCompra:hover{
+            background-color: black;
+            color: white;
+        }
+    }
+}

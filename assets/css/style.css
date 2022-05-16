@@ -1,0 +1,371 @@
+.navegador {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navegador img {
+  height: 30px;
+  width: auto;
+  padding-left: 30px;
+}
+
+.navegador ul {
+  list-style: none;
+  display: flex;
+}
+
+.navegador ul li {
+  padding-right: 30px;
+}
+
+.navegador ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.historiaCont {
+  background-image: url(https://galacticadigital.com.br/wp-content/uploads/2022/05/pic_story.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+
+.historiaCont h2 {
+  font-size: 40px;
+}
+
+.historiaCont p {
+  font-size: 20px;
+}
+
+.ventaDemo {
+  height: 500px;
+  width: auto;
+}
+
+.ventaDemo .demo1 {
+  background-color: black;
+}
+
+.ventaDemo .demo1 h2 {
+  color: #f5bb53;
+}
+
+.ventaDemo .demo1 p {
+  color: white;
+}
+
+.ventaDemo .demo1 .compra2 {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+.ventaDemo .demo1 .compra2:hover {
+  background-color: #f5bb53;
+}
+
+.ventaDemo .demo2 {
+  background-color: #f5bb53;
+}
+
+.ventaDemo .demo2 p {
+  color: white;
+}
+
+.ventaDemo .demo2 .botonCompra {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+.ventaDemo .demo2 .botonCompra:hover {
+  background-color: black;
+  color: white;
+}
+
+.pie {
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.pie .textoFooter {
+  list-style: none;
+}
+
+.pie .textoFooter li {
+  padding-right: 30px;
+  color: #969696;
+}
+
+.pie .Redes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pie .Redes ul {
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.pie .Redes ul li {
+  padding-right: 30px;
+  display: flex;
+}
+
+.pie .parrafoFoot {
+  color: #6a6a6a;
+  font-size: 12px;
+}
+
+.franqInicio {
+  background-image: url(https://galacticadigital.com.br/wp-content/uploads/2022/05/banners_promo-06.png);
+  height: 230px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.containerListFranq ul {
+  list-style: none;
+}
+
+.containerListFranq ul li {
+  padding-right: 30px;
+  font-weight: bolder;
+}
+
+.contFranq2x1 {
+  height: 500px;
+}
+
+.contFranq2x1 .contFranq1 {
+  background-image: url(https://galacticadigital.com.br/wp-content/uploads/2022/05/block1-1.jpg);
+}
+
+.contFranq2x1 .contFranq1 .listaFranq {
+  list-style: none;
+}
+
+.contFranq2x1 .contFranq2 {
+  background-image: url(https://galacticadigital.com.br/wp-content/uploads/2022/05/block2.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.franquiciaCont {
+  height: auto;
+}
+
+.franquiciaCont .imgFranqCont {
+  width: 100%;
+}
+
+.franquiciaCont .imgFranq {
+  height: 350px;
+  width: 200px;
+}
+
+.franquiciaCont .textoFranq {
+  width: 50%;
+}
+
+.franquiciaCont .textoFranq .botonFranq {
+  width: 170px;
+  height: 40px;
+}
+
+.navegador {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navegador img {
+  height: 30px;
+  width: auto;
+  padding-left: 30px;
+}
+
+.navegador ul {
+  list-style: none;
+  display: flex;
+}
+
+.navegador ul li {
+  padding-right: 30px;
+}
+
+.navegador ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.historiaCont {
+  background-image: url(https://galacticadigital.com.br/wp-content/uploads/2022/05/pic_story.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+
+.historiaCont h2 {
+  font-size: 40px;
+}
+
+.historiaCont p {
+  font-size: 20px;
+}
+
+.ventaDemo {
+  height: 500px;
+  width: auto;
+}
+
+.ventaDemo .demo1 {
+  background-color: black;
+}
+
+.ventaDemo .demo1 h2 {
+  color: #f5bb53;
+}
+
+.ventaDemo .demo1 p {
+  color: white;
+}
+
+.ventaDemo .demo1 .compra2 {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+.ventaDemo .demo1 .compra2:hover {
+  background-color: #f5bb53;
+}
+
+.ventaDemo .demo2 {
+  background-color: #f5bb53;
+}
+
+.ventaDemo .demo2 p {
+  color: white;
+}
+
+.ventaDemo .demo2 .botonCompra {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+.ventaDemo .demo2 .botonCompra:hover {
+  background-color: black;
+  color: white;
+}
+
+.containerTarjetas {
+  height: auto;
+  padding-bottom: 65px;
+}
+
+.containerTarjetas .fondoTarjetas h1 {
+  padding-top: 80px;
+}
+
+.containerTarjetas .tarjetas {
+  background-color: white;
+  width: 200px;
+  height: 250px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 23px -9px rgba(109, 113, 113, 0.35);
+}
+
+.containerTarjetas .tarjetas img {
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.containerTarjetas .agrupTarjetas {
+  height: auto;
+}
+
+.tarjetasMenu2 {
+  padding-top: 100px;
+}
+
+.tarjetas2 {
+  width: 200px;
+  height: 250px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 23px -9px rgba(109, 113, 113, 0.35);
+}
+
+.tarjetas2 img {
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.contactoCont {
+  background-color: #f5bb53;
+}
+
+.contactoCont .textoCont {
+  width: 50%;
+  padding-left: 40px;
+}
+
+.menuInicio {
+  background-image: url(https://galacticadigital.com.br/wp-content/uploads/2022/05/banners_promo-04.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 230px;
+}
+
+.contInicio {
+  background-image: url(https://galacticadigital.com.br/wp-content/uploads/2022/05/banners_promo-05.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 230px;
+  color: white;
+}
+
+.formulario {
+  height: 400px;
+  width: 400px;
+}
+
+.contactoCont2 {
+  background-image: url(https://galacticadigital.com.br/wp-content/uploads/2022/05/banners_promo-07.jpg);
+  color: white;
+}
+
+.contactoCont2 h2 {
+  color: #f5bb53;
+}
+
+.contactoCont2 .textoCont {
+  width: 50%;
+  padding-left: 40px;
+}
+/*# sourceMappingURL=style.css.map */

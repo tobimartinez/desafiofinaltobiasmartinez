@@ -1,0 +1,48 @@
+.franqInicio{
+    background-image: url(https://galacticadigital.com.br/wp-content/uploads/2022/05/banners_promo-06.png);
+    height: 230px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+}
+.containerListFranq{
+    ul{
+        list-style: none;
+        li{
+            padding-right: 30px;
+            font-weight: bolder;
+        }
+    }
+}
+.contFranq2x1{
+    height: 500px;
+    .contFranq1{
+        background-image: url(https://galacticadigital.com.br/wp-content/uploads/2022/05/block1-1.jpg);
+        .listaFranq{
+            list-style: none;
+        }
+    }
+    .contFranq2{
+        background-image: url(https://galacticadigital.com.br/wp-content/uploads/2022/05/block2.jpg);
+        background-size: cover;
+        color: white;
+    }
+}
+.franquiciaCont{
+    height: auto;
+    .imgFranqCont{
+        width: 100%;
+    }
+    .imgFranq{
+        height: 350px;
+        width: 200px;
+    }
+    .textoFranq{
+        
+        width: 50%;
+        .botonFranq{
+            width: 170px;
+            height: 40px;
+        }
+    }
+}
