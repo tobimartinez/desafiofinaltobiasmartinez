@@ -1,9 +1,12 @@
 .contactoCont{
     background-color: #f5bb53;
-    
+    h2{
+        font-family: "Montserrat Bold";
+    }
     .textoCont{
         width: 50%;
         padding-left: 40px;
+        font-family: "Montserrat Bold";
     }
 }
 
@@ -24,6 +27,13 @@
     background-repeat: no-repeat;
     height: 230px;
     color: white;
+    h1{
+        font-family: "Montserrat Bold";
+    }
+
+}
+.tituloForm{
+    font-family: "Montserrat Bold";
 }
 .formulario{
     height: 400px;

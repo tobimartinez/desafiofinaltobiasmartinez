@@ -1,5 +1,4 @@
-.navegador {
-  background-color: black;
+.navbar {
   color: white;
   display: flex;
   justify-content: space-between;
@@ -7,24 +6,28 @@
   padding-bottom: 20px;
 }
 
-.navegador img {
-  height: 30px;
+.navbar img {
+  height: 70px;
   width: auto;
   padding-left: 30px;
 }
 
-.navegador ul {
+.navbar ul {
   list-style: none;
+  display: flex;
+  font-size: 15px;
+  margin-right: 100px;
+}
+
+.navbar ul li {
+  padding-right: 30px;
   display: flex;
 }
 
-.navegador ul li {
-  padding-right: 30px;
-}
-
-.navegador ul li a {
+.navbar ul li a {
   text-decoration: none;
   color: white;
+  font-family: "Montserrat Bold";
 }
 
 .historiaCont {
@@ -89,6 +92,29 @@
 .ventaDemo .demo2 .botonCompra:hover {
   background-color: black;
   color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    padding-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar ul {
+    padding-left: 120px;
+  }
 }
 
 .pie {
@@ -186,8 +212,7 @@
   height: 40px;
 }
 
-.navegador {
-  background-color: black;
+.navbar {
   color: white;
   display: flex;
   justify-content: space-between;
@@ -195,24 +220,28 @@
   padding-bottom: 20px;
 }
 
-.navegador img {
-  height: 30px;
+.navbar img {
+  height: 70px;
   width: auto;
   padding-left: 30px;
 }
 
-.navegador ul {
+.navbar ul {
   list-style: none;
+  display: flex;
+  font-size: 15px;
+  margin-right: 100px;
+}
+
+.navbar ul li {
+  padding-right: 30px;
   display: flex;
 }
 
-.navegador ul li {
-  padding-right: 30px;
-}
-
-.navegador ul li a {
+.navbar ul li a {
   text-decoration: none;
   color: white;
+  font-family: "Montserrat Bold";
 }
 
 .historiaCont {
@@ -279,6 +308,29 @@
   color: white;
 }
 
+@media only screen and (max-width: 600px) {
+  .navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    padding-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar ul {
+    padding-left: 120px;
+  }
+}
+
 .containerTarjetas {
   height: auto;
   padding-bottom: 65px;
@@ -329,9 +381,14 @@
   background-color: #f5bb53;
 }
 
+.contactoCont h2 {
+  font-family: "Montserrat Bold";
+}
+
 .contactoCont .textoCont {
   width: 50%;
   padding-left: 40px;
+  font-family: "Montserrat Bold";
 }
 
 .menuInicio {
@@ -348,6 +405,14 @@
   background-repeat: no-repeat;
   height: 230px;
   color: white;
+}
+
+.contInicio h1 {
+  font-family: "Montserrat Bold";
+}
+
+.tituloForm {
+  font-family: "Montserrat Bold";
 }
 
 .formulario {
@@ -367,5 +432,15 @@
 .contactoCont2 .textoCont {
   width: 50%;
   padding-left: 40px;
+}
+
+@font-face {
+  font-family: "Montserrat bold";
+  src: url("../fonts/static/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "MontserrarRegular";
+  src: url(../fonts/static/Montserrat-Regular.ttf);
 }
 /*# sourceMappingURL=style.css.map */
