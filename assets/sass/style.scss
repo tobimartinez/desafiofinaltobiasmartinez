@@ -4,6 +4,7 @@
 @import "_index.scss";
 @import "_tarjetas.scss";
 @import "_contacto.scss";
+@import "_seguirenvio.scss";
 @font-face {
     font-family: "Montserrat bold";
     src: url("../fonts/static/Montserrat-Bold.ttf");
@@ -12,5 +13,8 @@
     font-family: "MontserrarRegular";
     src: url(../fonts/static/Montserrat-Regular.ttf);
 }
-
+.tarjetas2:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
 

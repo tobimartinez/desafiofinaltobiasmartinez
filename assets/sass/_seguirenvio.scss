@@ -1,0 +1,24 @@
+.contenidoEnvio{
+    height: auto;
+}
+.botonEnvio{
+    margin-top: 30px;
+    padding: 10px 15px 10px 15px;
+}
+.botonVermas{
+    padding: 10px 15px 10px 15px;
+    background-color: #969696;
+    color: yellow;
+}
+.textoEnvio{
+    padding-left: 30px;
+}
+.botonEnvio:hover{
+    background-color: black;
+    color: yellow;
+    transition: 300ms;
+}
+.botonVermas:hover{
+    background-color: white;
+    color: black;
+}
